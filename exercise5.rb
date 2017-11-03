@@ -11,9 +11,9 @@ until user_input == "go home"
     elsif user_input == "run"
       counter += 5
       puts "Distance from home is #{counter} kilometers."
-    elsif user_input == false
-      puts "I'm sorry.. what was that?"
-    else user_input == "go home"
+    elsif user_input == "go home"
       puts "You travelled #{counter} kilometers today."
+    else
+      puts "I'm sorry.. what was that?"
   end
 end
